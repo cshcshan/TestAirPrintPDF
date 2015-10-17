@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33024D4F1BD1FC30006CB2EF /* swift-language-traditional-chinese.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33024D4E1BD1FC30006CB2EF /* swift-language-traditional-chinese.pdf */; settings = {ASSET_TAGS = (); }; };
+		33228A521BC9517900097ABC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33228A511BC9517900097ABC /* main.m */; };
+		33228A551BC9517900097ABC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33228A541BC9517900097ABC /* AppDelegate.m */; };
+		33228A581BC9517900097ABC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33228A571BC9517900097ABC /* ViewController.m */; };
+		33228A5B1BC9517900097ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33228A591BC9517900097ABC /* Main.storyboard */; };
+		33228A5D1BC9517900097ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33228A5C1BC9517900097ABC /* Assets.xcassets */; };
+		33228A601BC9517900097ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33228A5E1BC9517900097ABC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33024D4E1BD1FC30006CB2EF /* swift-language-traditional-chinese.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "swift-language-traditional-chinese.pdf"; sourceTree = "<group>"; };
+		33228A4D1BC9517900097ABC /* TestAirPrintPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAirPrintPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33228A511BC9517900097ABC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33228A531BC9517900097ABC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33228A541BC9517900097ABC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33228A561BC9517900097ABC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33228A571BC9517900097ABC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33228A5A1BC9517900097ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33228A5C1BC9517900097ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33228A5F1BC9517900097ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33228A611BC9517900097ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33228A4A1BC9517900097ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33228A441BC9517900097ABC = {
+			isa = PBXGroup;
+			children = (
+				33228A4F1BC9517900097ABC /* TestAirPrintPDF */,
+				33228A4E1BC9517900097ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33228A4E1BC9517900097ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33228A4D1BC9517900097ABC /* TestAirPrintPDF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33228A4F1BC9517900097ABC /* TestAirPrintPDF */ = {
+			isa = PBXGroup;
+			children = (
+				33024D4E1BD1FC30006CB2EF /* swift-language-traditional-chinese.pdf */,
+				33228A531BC9517900097ABC /* AppDelegate.h */,
+				33228A541BC9517900097ABC /* AppDelegate.m */,
+				33228A561BC9517900097ABC /* ViewController.h */,
+				33228A571BC9517900097ABC /* ViewController.m */,
+				33228A591BC9517900097ABC /* Main.storyboard */,
+				33228A5C1BC9517900097ABC /* Assets.xcassets */,
+				33228A5E1BC9517900097ABC /* LaunchScreen.storyboard */,
+				33228A611BC9517900097ABC /* Info.plist */,
+				33228A501BC9517900097ABC /* Supporting Files */,
+			);
+			path = TestAirPrintPDF;
+			sourceTree = "<group>";
+		};
+		33228A501BC9517900097ABC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33228A511BC9517900097ABC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33228A4C1BC9517900097ABC /* TestAirPrintPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33228A641BC9517900097ABC /* Build configuration list for PBXNativeTarget "TestAirPrintPDF" */;
+			buildPhases = (
+				33228A491BC9517900097ABC /* Sources */,
+				33228A4A1BC9517900097ABC /* Frameworks */,
+				33228A4B1BC9517900097ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAirPrintPDF;
+			productName = TestAirPrintPDF;
+			productReference = 33228A4D1BC9517900097ABC /* TestAirPrintPDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33228A451BC9517900097ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Han Chen";
+				TargetAttributes = {
+					33228A4C1BC9517900097ABC = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 33228A481BC9517900097ABC /* Build configuration list for PBXProject "TestAirPrintPDF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33228A441BC9517900097ABC;
+			productRefGroup = 33228A4E1BC9517900097ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33228A4C1BC9517900097ABC /* TestAirPrintPDF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33228A4B1BC9517900097ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33024D4F1BD1FC30006CB2EF /* swift-language-traditional-chinese.pdf in Resources */,
+				33228A601BC9517900097ABC /* LaunchScreen.storyboard in Resources */,
+				33228A5D1BC9517900097ABC /* Assets.xcassets in Resources */,
+				33228A5B1BC9517900097ABC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33228A491BC9517900097ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33228A581BC9517900097ABC /* ViewController.m in Sources */,
+				33228A551BC9517900097ABC /* AppDelegate.m in Sources */,
+				33228A521BC9517900097ABC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33228A591BC9517900097ABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33228A5A1BC9517900097ABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33228A5E1BC9517900097ABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33228A5F1BC9517900097ABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33228A621BC9517900097ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33228A631BC9517900097ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33228A651BC9517900097ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestAirPrintPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cshan.TestAirPrintPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33228A661BC9517900097ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestAirPrintPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cshan.TestAirPrintPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33228A481BC9517900097ABC /* Build configuration list for PBXProject "TestAirPrintPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33228A621BC9517900097ABC /* Debug */,
+				33228A631BC9517900097ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33228A641BC9517900097ABC /* Build configuration list for PBXNativeTarget "TestAirPrintPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33228A651BC9517900097ABC /* Debug */,
+				33228A661BC9517900097ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33228A451BC9517900097ABC /* Project object */;
+}
