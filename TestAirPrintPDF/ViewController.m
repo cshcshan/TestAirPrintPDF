@@ -62,7 +62,28 @@ NSString * const fileExtension = @".pdf";
         aPrintController.printingItem = iFilePath;
         aPrintController.printInfo = aPrintInfo;
         aPrintController.showsPageRange = YES;
-        [aPrintController presentAnimated:YES completionHandler:nil];
+        // *** iPad必須要使用popover否則會有warning *** By HanChen 20151019 *** Begin ***
+        //[aPrintController presentAnimated:YES completionHandler:nil];
+        if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
+            NSLog(@"=== iPad ===");
+            [aPrintController presentFromRect:CGRectMake(10, 10, 10, 10) inView:self.view animated:YES completionHandler:^(UIPrintInteractionController *printInteractionController, BOOL completed, NSError *error) {
+                if (completed) {
+                    NSLog(@"iPad print completed");
+                } else {
+                    NSLog(@"iPad print fails");
+                }
+             }];
+        } else {
+            NSLog(@"=== iPhone ===");
+            [aPrintController presentAnimated:YES completionHandler:^(UIPrintInteractionController *printInteractionController, BOOL completed, NSError *error) {
+                if (completed) {
+                    NSLog(@"iPhone print completed");
+                } else {
+                    NSLog(@"iPhone print fails");
+                }
+            }];
+        }
+        // *** iPad必須要使用popover否則會有warning *** By HanChen 20151019 *** End ***
     }
 }
 
