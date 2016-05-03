@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33024D4F1BD1FC30006CB2EF /* swift-language-traditional-chinese.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33024D4E1BD1FC30006CB2EF /* swift-language-traditional-chinese.pdf */; settings = {ASSET_TAGS = (); }; };
+		33024D4F1BD1FC30006CB2EF /* swift-language-traditional-chinese.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33024D4E1BD1FC30006CB2EF /* swift-language-traditional-chinese.pdf */; };
 		33228A521BC9517900097ABC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33228A511BC9517900097ABC /* main.m */; };
 		33228A551BC9517900097ABC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33228A541BC9517900097ABC /* AppDelegate.m */; };
 		33228A581BC9517900097ABC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33228A571BC9517900097ABC /* ViewController.m */; };
@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		33024D4E1BD1FC30006CB2EF /* swift-language-traditional-chinese.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "swift-language-traditional-chinese.pdf"; sourceTree = "<group>"; };
-		33228A4D1BC9517900097ABC /* TestAirPrintPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAirPrintPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33228A4D1BC9517900097ABC /* AirPrintPDF-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirPrintPDF-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33228A511BC9517900097ABC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33228A531BC9517900097ABC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33228A541BC9517900097ABC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		33228A441BC9517900097ABC = {
 			isa = PBXGroup;
 			children = (
-				33228A4F1BC9517900097ABC /* TestAirPrintPDF */,
+				33228A4F1BC9517900097ABC /* AirPrintPDF-objc */,
 				33228A4E1BC9517900097ABC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		33228A4E1BC9517900097ABC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33228A4D1BC9517900097ABC /* TestAirPrintPDF.app */,
+				33228A4D1BC9517900097ABC /* AirPrintPDF-objc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		33228A4F1BC9517900097ABC /* TestAirPrintPDF */ = {
+		33228A4F1BC9517900097ABC /* AirPrintPDF-objc */ = {
 			isa = PBXGroup;
 			children = (
 				33024D4E1BD1FC30006CB2EF /* swift-language-traditional-chinese.pdf */,
@@ -71,7 +71,7 @@
 				33228A611BC9517900097ABC /* Info.plist */,
 				33228A501BC9517900097ABC /* Supporting Files */,
 			);
-			path = TestAirPrintPDF;
+			path = "AirPrintPDF-objc";
 			sourceTree = "<group>";
 		};
 		33228A501BC9517900097ABC /* Supporting Files */ = {
@@ -85,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33228A4C1BC9517900097ABC /* TestAirPrintPDF */ = {
+		33228A4C1BC9517900097ABC /* AirPrintPDF-objc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33228A641BC9517900097ABC /* Build configuration list for PBXNativeTarget "TestAirPrintPDF" */;
+			buildConfigurationList = 33228A641BC9517900097ABC /* Build configuration list for PBXNativeTarget "AirPrintPDF-objc" */;
 			buildPhases = (
 				33228A491BC9517900097ABC /* Sources */,
 				33228A4A1BC9517900097ABC /* Frameworks */,
@@ -97,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = TestAirPrintPDF;
+			name = "AirPrintPDF-objc";
 			productName = TestAirPrintPDF;
-			productReference = 33228A4D1BC9517900097ABC /* TestAirPrintPDF.app */;
+			productReference = 33228A4D1BC9517900097ABC /* AirPrintPDF-objc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 33228A481BC9517900097ABC /* Build configuration list for PBXProject "TestAirPrintPDF" */;
+			buildConfigurationList = 33228A481BC9517900097ABC /* Build configuration list for PBXProject "AirPrintPDF-objc" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -129,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33228A4C1BC9517900097ABC /* TestAirPrintPDF */,
+				33228A4C1BC9517900097ABC /* AirPrintPDF-objc */,
 			);
 		};
 /* End PBXProject section */
@@ -267,10 +267,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TestAirPrintPDF/Info.plist;
+				INFOPLIST_FILE = "AirPrintPDF-objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cshan.TestAirPrintPDF;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "AirPrintPDF-objc";
 			};
 			name = Debug;
 		};
@@ -278,17 +278,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TestAirPrintPDF/Info.plist;
+				INFOPLIST_FILE = "AirPrintPDF-objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cshan.TestAirPrintPDF;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "AirPrintPDF-objc";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33228A481BC9517900097ABC /* Build configuration list for PBXProject "TestAirPrintPDF" */ = {
+		33228A481BC9517900097ABC /* Build configuration list for PBXProject "AirPrintPDF-objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33228A621BC9517900097ABC /* Debug */,
@@ -297,7 +297,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33228A641BC9517900097ABC /* Build configuration list for PBXNativeTarget "TestAirPrintPDF" */ = {
+		33228A641BC9517900097ABC /* Build configuration list for PBXNativeTarget "AirPrintPDF-objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33228A651BC9517900097ABC /* Debug */,

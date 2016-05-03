@@ -1,6 +1,6 @@
 //
 //  main.m
-//  TestAirPrintPDF
+//  AirPrintPDF-objc
 //
 //  Created by Han Chen on 2015/10/10.
 //  Copyright © 2015年 Han Chen. All rights reserved.
