@@ -269,7 +269,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "AirPrintPDF-objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cshan.TestAirPrintPDF;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cshan.AirPrintPDF-objc";
 				PRODUCT_NAME = "AirPrintPDF-objc";
 			};
 			name = Debug;
@@ -280,7 +280,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "AirPrintPDF-objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cshan.TestAirPrintPDF;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cshan.AirPrintPDF-objc";
 				PRODUCT_NAME = "AirPrintPDF-objc";
 			};
 			name = Release;
